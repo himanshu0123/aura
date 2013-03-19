@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aura</title>
+  <%= stylesheet_link_tag "application" %>
+<%= stylesheet_link_tag "aythentications" , :media => "all" %>
+<%= javascript_include_tag :default %>
+<%= javascript_include_tag "scaffold" %>
+ 
+  <%= csrf_meta_tags %>
+</head>
+
+<body id="banner1" >
+<div id="banner" >
+<%= image_tag("facebook_64.png" ) %>
+
+<div id="entry" >
+<%= image_tag("facebook_64.png") %>
+</div>
+
+<%= yield %>
+
+</body>
+</html>
