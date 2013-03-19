@@ -47,7 +47,5 @@ gem 'omniauth-linkedin'
 gem 'carrierwave'
 group:development, :test do
 gem "sqlite3-ruby"
-group :prodution do
-gem 'pg'
-gem 'thin'
-gem 'therubyracer'
+end
+
