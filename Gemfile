@@ -5,9 +5,7 @@ gem 'rails', '3.2.12'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-
-
-
+gem 'sqlite3'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -44,8 +42,6 @@ gem 'jquery-rails'
 gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 gem 'omniauth-linkedin'
+gem 'omniauth-google'
 gem 'carrierwave'
-group:development, :test do
-gem "sqlite3-ruby"
-end
 
